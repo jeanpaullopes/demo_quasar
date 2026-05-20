@@ -1,10 +1,16 @@
 <template>
   <q-btn label="filtrar" @click="filtrar()" />
   <q-btn label="limpar filtro" @click="limparFiltro()" />
+  <!--
   <div v-for="pst in posts" :key="pst.id">
     <PostItem :post="pst" />
     <q-separator />
   </div>
+   -->
+  <div v-for="p in posts" :key="p.id">
+    <PostItem :post="p" />
+  </div>
+  {{ posts }}
 </template>
 
 <script>
