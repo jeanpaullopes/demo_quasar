@@ -19,7 +19,7 @@
     <div class="col-md-4 col-sm-6">col 4</div>
   </div>
   <routerLink to="/posts"> posts </routerLink>
-  <routerLink to="/index"> index </routerLink>
+  <routerLink to="/pessoas"> pessoas </routerLink>
 </template>
 <script>
 import { getAllUsersFromRest } from 'src/services/usersServices.js'
